@@ -15,7 +15,7 @@ if __name__ == '__main__':
     torch.manual_seed(args.seed)
     np.random.seed(args.seed)
 
-    wandb.init("120e25ecc0f47ed9aad8245632168bf78d12e20f")
+    wandb.init("") # access token for weights and biases
 
     dataset = build_dataset()
 
